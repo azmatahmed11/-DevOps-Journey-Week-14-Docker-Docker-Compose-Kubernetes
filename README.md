@@ -21,7 +21,7 @@ Copy code
 docker swarm init
 docker network create -d overlay myoverlay
 docker service create --name web --network myoverlay nginx
-🔹 Docker Compose for Multi-Container Apps
+## 🔹 Docker Compose for Multi-Container Apps
 docker-compose.yml example:
 
 yaml
@@ -44,7 +44,7 @@ Copy code
 docker-compose up -d
 docker-compose logs -f
 docker-compose down
-🔹 Kubernetes for Scaling & Automation
+## 🔹 Kubernetes for Scaling & Automation
 bash
 Copy code
 # Create deployment
